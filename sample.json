@@ -1,0 +1,14 @@
+{
+    "eventFormatVersion": "2023-06-09",
+    "createdAt": "2023-06-09T09:20:30",
+    "monitoringService": "Organizational Cloudtrail",
+    "severity": "INFO",
+    "confidence": 10,
+    "environment": "TEST",
+    "summary": "This is a recurring event, for testing purposes.",
+    "affectedResource": null,
+    "cvss":{
+        "score": 3.7,
+        "vectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:L"
+    }
+}
