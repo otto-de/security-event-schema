@@ -73,16 +73,17 @@
                     "minimum": 0,
                     "maximum": 10
                 },
+                "severity": {
+                    "type": "string",
+                    "enum": [ "NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL" ]
+                },        
                 "vectorString": {
                     "type": "string",
                     "description": "The short form of the score result",
-                    "pattern": "^CVSS:3.0(/[A-Z]{1,2}:[A-Z])+$"
+                    "pattern": "^CVSS:3[.]0/((AV:[NALP]|AC:[LH]|PR:[UNLH]|UI:[NR]|S:[UC]|[CIA]:[NLH]|E:[XUPFH]|RL:[XOTWU]|RC:[XURC]|[CIA]R:[XLMH]|MAV:[XNALP]|MAC:[XLH]|MPR:[XUNLH]|MUI:[XNR]|MS:[XUC]|M[CIA]:[XNLH])/)*(AV:[NALP]|AC:[LH]|PR:[UNLH]|UI:[NR]|S:[UC]|[CIA]:[NLH]|E:[XUPFH]|RL:[XOTWU]|RC:[XURC]|[CIA]R:[XLMH]|MAV:[XNALP]|MAC:[XLH]|MPR:[XUNLH]|MUI:[XNR]|MS:[XUC]|M[CIA]:[XNLH])$"
                 }
             },
-            "required": ["score", "vectorString"]
-        },
-        "refcvss": {
-            "$ref": "https://www.first.org/cvss/cvss-v3.0.json?20170531"
+            "required": ["score", "severity", "vectorString"]
         }
     },
     "required": ["eventFormatVersion", "createdAt", "monitoringService", "severity", "confidence", "environment", "affectedResource"]
