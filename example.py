@@ -1,7 +1,7 @@
 from jsonschema import validate
 import json
 
-with open("format.json", "r") as f:
+with open("securityevent.schema.json", "r") as f:
     schema = json.load(f)
 
 with open("sample.json", "r") as f:
