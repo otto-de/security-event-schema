@@ -20,7 +20,8 @@
             "description": "Monitoring Source from Shop Security",
             "enum": [
                 "Organizational Cloudtrail",
-                "Organizational Guard Duty"
+                "Organizational Guard Duty",
+                "Test Data Source"
             ]
         },
         "severity": {
