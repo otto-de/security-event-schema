@@ -1,5 +1,5 @@
 {
-    "eventFormatVersion": "2023-06-09",
+    "eventFormatVersion": "2023-09-19",
     "createdAt": "2023-06-09T09:20:30",
     "monitoringService": "Organizational Cloudtrail",
     "severity": "INFO",
