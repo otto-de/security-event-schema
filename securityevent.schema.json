@@ -53,8 +53,8 @@
             ]
         },
         "affectedResource": {
-            "type": ["string", "null"],
-            "description": "Unique identifier of the affected resource (e.g. ARN)"
+            "type": ["object", "string", "null"],
+            "description": "Information about the affected Resource (e.g. ARN, Resource-metadata)"
         },
         "surroundingEvents": {
             "type": "array",
