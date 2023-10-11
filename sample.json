@@ -3,6 +3,7 @@
     "createdAt": "2023-06-09T09:20:30",
     "monitoringService": "Organizational Cloudtrail",
     "severity": "INFO",
+    "accountId": 1234567890,
     "confidence": 10,
     "environment": "TEST",
     "summary": "This is a recurring event, for testing purposes.",

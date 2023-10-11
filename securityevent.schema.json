@@ -38,6 +38,10 @@
             "minimum": 0,
             "maximum": 10
         },
+        "accountId": {
+            "type": "number",
+            "description": "The AWS Account Id, if available"
+        },
         "summary": {
             "type": "string",
             "description": "Briefly describes the event"
