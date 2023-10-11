@@ -39,7 +39,8 @@
             "maximum": 10
         },
         "accountId": {
-            "type": "number",
+            "type": "string",
+            "pattern":"^[0-9]{12}?$",
             "description": "The AWS Account Id, if available"
         },
         "summary": {
