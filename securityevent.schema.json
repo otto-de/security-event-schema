@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "eventFormatVersion": {
-            "const": "2024-02-08"
+            "const": "2024-02-16"
         },
         "eventId": {
             "type": "string",
