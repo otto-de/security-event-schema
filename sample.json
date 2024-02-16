@@ -1,6 +1,7 @@
 {
-    "eventFormatVersion": "2024-02-08",
+    "eventFormatVersion": "2024-02-16",
     "createdAt": "2023-06-09T09:20:30",
+    "eventId": "bd65600d-8669-4903-8a14-af88203add38",
     "monitoringService": "Organizational Cloudtrail",
     "severity": "INFO",
     "accountId": "012345678910",
