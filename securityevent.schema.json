@@ -8,6 +8,11 @@
         "eventFormatVersion": {
             "const": "2024-02-08"
         },
+        "eventId": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+            "description": "Represents a unique identifier (uuid) of the alarm."
+        },
         "createdAt": {
             "type": "string",
             "pattern":"^\\d{4}-[0-1]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d:[0-5]\\d(\\.\\d+)?(([+-][0-2]\\d:[0-5]\\d)|Z)?$",
@@ -92,5 +97,5 @@
             "required": ["score", "severity", "vectorString"]
         }
     },
-    "required": ["eventFormatVersion", "createdAt", "monitoringService", "severity", "confidence", "environment", "affectedResource"]
+    "required": ["eventFormatVersion", "eventId", "createdAt", "monitoringService", "severity", "confidence", "environment", "affectedResource"]
 }
