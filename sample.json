@@ -1,5 +1,5 @@
 {
-    "eventFormatVersion": "2024-02-16",
+    "eventFormatVersion": "2024-03-13",
     "createdAt": "2023-06-09T09:20:30",
     "eventId": "bd65600d-8669-4903-8a14-af88203add38",
     "monitoringService": "Organizational Cloudtrail",
@@ -9,6 +9,7 @@
     "environment": "TEST",
     "summary": "This is a recurring event, for testing purposes.",
     "affectedResource": null,
+    "actionLink": "https://example.org/some/deep/link?with=param",
     "cvss":{
         "score": 3.7,
         "severity": "LOW",

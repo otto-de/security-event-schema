@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "eventFormatVersion": {
-            "const": "2024-02-16"
+            "const": "2024-03-13"
         },
         "eventId": {
             "type": "string",
@@ -66,6 +66,11 @@
             "type": ["object", "string", "null"],
             "description": "Information about the affected Resource (e.g. ARN, Resource-metadata)"
         },
+        "actionLink": {
+            "type": "string",
+            "description": "Links to more information or the event source.",
+            "pattern": "^http[s]?:\/\/[a-zA-Z0-9.]+[-._~:\/?#[\\]@!$&'()*+,;%=a-zA-Z0-9]*$"
+        },
         "surroundingEvents": {
             "type": "array",
             "description": "Cloudtrail Activities surrounding the event for quicker analysis, or similar, if available"
@@ -97,5 +102,5 @@
             "required": ["score", "severity", "vectorString"]
         }
     },
-    "required": ["eventFormatVersion", "eventId", "createdAt", "monitoringService", "severity", "confidence", "environment", "affectedResource"]
+    "required": ["eventFormatVersion", "eventId", "createdAt", "monitoringService", "severity", "confidence", "environment", "affectedResource", "actionLink"]
 }
