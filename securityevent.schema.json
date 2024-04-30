@@ -6,7 +6,7 @@
     "type": "object",
     "properties": {
         "eventFormatVersion": {
-            "const": "2024-03-13"
+            "const": "2024-04-30"
         },
         "eventId": {
             "type": "string",
@@ -24,6 +24,7 @@
             "enum": [
                 "Organizational Cloudtrail",
                 "Organizational Guard Duty",
+                "IAM Access Analyzer",
                 "Test Data Source",
                 "Cloud Configuration",
                 "Wiz Vulnerability"
