@@ -70,7 +70,7 @@
         "actionLink": {
             "type": "string",
             "description": "Links to more information or the event source.",
-            "pattern": "^http[s]?:\/\/[a-zA-Z0-9.]+[-._~:\/?#[\\]@!$&'()*+,;%=a-zA-Z0-9]*$"
+            "pattern": "^http[s]?:\/\/[a-zA-Z0-9.]+[-._~:\/?#[\\]@!\\$&'()*+,;%=a-zA-Z0-9]*$"
         },
         "surroundingEvents": {
             "type": "array",
