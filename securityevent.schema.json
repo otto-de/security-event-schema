@@ -27,7 +27,8 @@
                 "IAM Access Analyzer",
                 "Test Data Source",
                 "Cloud Configuration",
-                "Wiz Vulnerability"
+                "Wiz Vulnerability",
+                "DomainProtect Alias Checker"
             ]
         },
         "severity": {
