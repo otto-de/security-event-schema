@@ -28,7 +28,10 @@
                 "Test Data Source",
                 "Cloud Configuration",
                 "Wiz Vulnerability",
-                "DomainProtect Alias Checker"
+                "DomainProtect Alias Checker",
+                "GHAS Dependabot",
+                "GHAS Secret Scanning",
+                "GHAS Code Scanning"
             ]
         },
         "severity": {
