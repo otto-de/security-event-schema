@@ -25,6 +25,7 @@
                 "Organizational Cloudtrail",
                 "Organizational Guard Duty",
                 "IAM Access Analyzer",
+                "IRIS Heartbeat",
                 "Test Data Source",
                 "Cloud Configuration",
                 "Wiz Vulnerability",
@@ -37,6 +38,8 @@
         "severity": {
             "type": "string",
             "enum": [
+                "DIAGNOSTIC",
+                "CONDITIONAL",
                 "INFO",
                 "LOW",
                 "MEDIUM",
@@ -61,7 +64,7 @@
         },
         "environment": {
             "type": "string",
-            "description": "Test events will be send regularly",
+            "description": "Test events will be sent regularly",
             "enum": [
                 "LIVE",
                 "TEST"
@@ -97,7 +100,7 @@
                 "severity": {
                     "type": "string",
                     "enum": [ "NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL" ]
-                },        
+                },
                 "vectorString": {
                     "type": "string",
                     "description": "The short form of the score result",
