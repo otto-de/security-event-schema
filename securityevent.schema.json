@@ -39,7 +39,7 @@
             "type": "string",
             "enum": [
                 "DIAGNOSTIC",
-                "CONDITIONAL",
+                "UNKNOWN",
                 "INFO",
                 "LOW",
                 "MEDIUM",
